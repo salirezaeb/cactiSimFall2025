@@ -8,7 +8,7 @@ This repository contains the setup, execution, and analysis of various cache con
 
 ### 1. Base Configuration
 
-A foundational CACTI configuration file was created to model a cache system with a specific set of parameters. This base configuration includes the following parameters:
+A [foundational](https://github.com/salirezaeb/cactiSimFall2025/blob/main/ddr3_cache.cfg) CACTI configuration file was created to model a cache system with a specific set of parameters. This base configuration includes the following parameters:
 - **Technology Size**: Defines the manufacturing process, affecting performance, power, and area.
 - **Associativity**: Defines the number of ways in which cache lines are associated with a set.
 - **Cache Size**: Total capacity of the cache, which can be varied to study performance vs. size trade-offs.
