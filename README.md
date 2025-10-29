@@ -18,7 +18,7 @@ This initial configuration serves as a template for generating variations across
 
 ### 2. Automated Configuration Generation
 
-A shell script `generateAndSimulateConfigs.sh` was developed to facilitate the exploration of multiple cache configurations. The script automates the following tasks:
+A shell script [`generateAndSimulateConfigs.sh`](https://github.com/salirezaeb/cactiSimFall2025/blob/main/generateAndSimulateConfigs.sh) was developed to facilitate the exploration of multiple cache configurations. The script automates the following tasks:
 
 - **Cache Configuration Generation**: The script reads the base configuration and dynamically adjusts the key parameters (cache size, block size, associativity, number of ports, etc.) to generate multiple unique cache configuration files. 
 - **Simulation Execution**: After generating the configuration files, the script runs **CACTI** for each configuration file. CACTI performs simulations and writes the output to `.out` files, capturing critical data such as access times, dynamic power consumption, leakage power, and area efficiency.
