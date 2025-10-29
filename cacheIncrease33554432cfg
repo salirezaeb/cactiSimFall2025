@@ -7,9 +7,9 @@
 //-size (bytes) 1048576
 //-size (bytes) 2097152
 //-size (bytes) 4194304
--size (bytes) 32768
+//-size (bytes) 8388608
 //-size (bytes) 16777216
-//-size (bytes) 33554432
+-size (bytes) 33554432
 //-size (bytes) 134217728
 //-size (bytes) 67108864
 //-size (bytes) 1073741824
@@ -31,16 +31,16 @@
 //-associativity 2
 //-associativity 4
 //-associativity 8
--associativity 4
+-associativity 8
 
--read-write port 2
+-read-write port 1
 -exclusive read port 0
 -exclusive write port 0
 -single ended read ports 0
 
 # Multiple banks connected using a bus
 -UCA bank count 1
--technology (u) 0.045
+-technology (u) 0.022
 //-technology (u) 0.040
 //-technology (u) 0.032
 //-technology (u) 0.090
