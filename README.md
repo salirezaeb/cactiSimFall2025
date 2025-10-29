@@ -34,7 +34,7 @@ The simulation generates output files containing the following parameters for ea
 
 ### 4. Results Storage
 
-All generated output files are stored in the [`all_result`](https://github.com/salirezaeb/cactiSimFall2025/blob/main/all_result.txt) directory. Each output file corresponds to a specific cache configuration, and provides a comprehensive set of performance metrics that can be analyzed and compared for optimization.
+All generated output files are stored in the [`all_result`](https://github.com/salirezaeb/cactiSimFall2025/blob/main/all_result.txt) text file. 
 
 ## Objective and Impact
 
