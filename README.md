@@ -64,8 +64,7 @@ In future iterations, the following improvements and analyses will be considered
    chmod 755 generateAndSimulateConfigs
    ./generateAndSimulateConfigs
 
-Results and Analysis:
+###Results and Analysis:
 
 After completing the above steps, the simulation results are stored in .out files corresponding to each configuration simulated. These output files contain detailed performance data, including access times, energy consumption, and other important metrics for different cache configurations.
 
-Additionally, a summary of the overall results, including key performance indicators and trends observed from the simulations, is documented in the result.txt file. This file provides a comprehensive analysis of the different configurations tested, highlighting the impact of varying parameters such as cache size, block size, and associativity on the performance and power efficiency of the cache model.
