@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the setup, execution, and analysis of various cache configurations using **CACTI tool. CACTI is a widely-used tool for evaluating cache memory architectures, providing detailed insights into critical parameters such as power consumption, area, and timing. The primary objective of this study is to evaluate and optimize cache configurations under different system parameters, focusing on configurations with varying cache sizes, associativities, block sizes, and port counts.
+This repository contains the setup, execution, and analysis of various cache configurations using CACTI tool. CACTI is a widely-used tool for evaluating cache memory architectures, providing detailed insights into critical parameters such as power consumption, area, and timing. The primary objective of this study is to evaluate and optimize cache configurations under different system parameters, focusing on configurations with varying cache sizes, associativities, block sizes, and port counts.
 
 ## Simulation Setup
 
